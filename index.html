@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BizaPad 🤖</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div id="sound-pad">
+        <button class="pad-btn" data-key="83">Clap (S)</button>
+        <button class="pad-btn" data-key="68">Hi-Hat (D)</button>
+        <button class="pad-btn" data-key="70">Kick (F)</button>
+        <button class="pad-btn" data-key="65">Open-Hat (A)</button>
+        <button class="pad-btn" data-key="71">Boom (G)</button>
+        <button class="pad-btn" data-key="72">Ride (H)</button>
+        <button class="pad-btn" data-key="74">Snare (J)</button>
+        <button class="pad-btn" data-key="75">Tom (K)</button>
+        <button class="pad-btn" data-key="76">Tink (L)</button>
+      </div>
+
+      <div id="controls">
+        <button id="record" class="control-btn">Record (R)</button>
+        <button id="play" class="control-btn">Play (P)</button>
+        <button id="reset" class="control-btn">Reset</button>
+      </div>
+    </div>
+
+    <!-- Audio Files -->
+    <audio
+      data-key="83"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/clap.wav"
+    ></audio>
+    <audio
+      data-key="68"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/hihat.wav"
+    ></audio>
+    <audio
+      data-key="70"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/kick.wav"
+    ></audio>
+    <audio
+      data-key="65"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/openhat.wav"
+    ></audio>
+    <audio
+      data-key="71"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/boom.wav"
+    ></audio>
+    <audio
+      data-key="72"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/ride.wav"
+    ></audio>
+    <audio
+      data-key="74"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/snare.wav"
+    ></audio>
+    <audio
+      data-key="75"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/tom.wav"
+    ></audio>
+    <audio
+      data-key="76"
+      src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/67723/tink.wav"
+    ></audio>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
