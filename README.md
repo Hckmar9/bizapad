@@ -1,4 +1,4 @@
-# BizaPad Sound Pad
+# BizaPad - Sound Pad
 
 <div align="center">
   <a href="#">
