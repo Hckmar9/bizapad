@@ -97,7 +97,7 @@ document.addEventListener("DOMContentLoaded", function () {
       lastOffset += 25;
     });
   }
-
+  // WiP - Ech time a button is tapped, a different color should be displayed
   function getColorForSound(key) {
     const colorMap = {
       83: "#ff4757", // Clap
